@@ -2,8 +2,7 @@
 #define ag_sifresi "ahmet123"
 void setup()
 {
-  Serial.begin(115200); 
-                       
+  Serial.begin(115200);              
   Serial.println("AT"); 
   pinMode(4,OUTPUT);
   pinMode(5,OUTPUT);
